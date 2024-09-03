@@ -32,12 +32,11 @@ html {
 }
 body {
 	font-family: $font-primary;
-	background: $black;
+	background-image: url('https://www.shutterstock.com/image-vector/space-starry-sky-dark-black-600nw-2124245315.jpg');
 	font-size: 16px;
 	line-height: 1.8;
 	font-weight: 400;
 	color: lighten($black,60%);
-	background-image: url('https://www.shutterstock.com/image-vector/space-starry-sky-dark-black-600nw-2124245315.jpg');
 	&.menu-show {
 		overflow: hidden;
 		position: fixed;
